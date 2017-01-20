@@ -1,0 +1,458 @@
+*{
+	margin:0;
+	padding:0;
+	outline: none;
+}
+body{
+	width: 100%;
+	height: 100%
+}
+
+ol,ul{list-style: none;}
+
+a,a:hover{text-decoration: none;}
+
+#header{
+	height: 80px;
+	background-color: #f2f2f2;
+}
+
+.center{
+	width:950px;
+	margin: 0 auto;
+}
+
+.logo{
+	float:left;
+	line-height: 80px;
+}
+
+.logo img{
+	float:left;
+	padding-top:30px;
+
+}
+
+.logo h3{
+	float:left;
+	color:#6b6b6b;
+	padding-left: 7px;
+}
+
+.nav{
+	float:left;
+	padding-left: 170px;
+	line-height: 80px;
+	font-size: 0;
+}
+.nav li {
+	display: inline-block;
+	font-size: 16px;
+}
+.nav li a{
+	color:#515862;
+	display: block;
+	padding:0 18px;
+}
+.nav li a:hover{
+	position:relative;
+	color:white;
+	background: #12a3d6;
+	border-bottom: 10px solid #0080b7;
+	height:70px;
+}
+
+.button{
+	float:left;
+	color:#fff;
+	line-height: 80px;
+	padding-left: 15px;
+}
+.button a{
+	padding:8px 20px;
+	background-color: #f98561; 
+	color:#000;
+	border-radius: 5px;
+}
+
+.search{
+	float:right;
+}
+.search img{
+	float: right;
+	padding-top: 28px;
+}
+.search span{
+	float:right;
+	line-height: 80px;
+	padding-right: 10px;
+	color:#7f858c;
+}
+ 
+
+#content{
+	text-align: center;
+	height: 490px;
+	background:url(images/background.jpg) no-repeat;
+	background-size: cover;
+}
+#content h2{
+	padding-top:110px;
+	text-align: center;
+	color:#a5a9ac;
+	font-size: 46px;
+}
+
+#content h4{
+	padding-top: 30px;
+	text-align: center;
+	color:#a5a9ac;
+}
+
+.buton{
+	text-align: center;
+}
+
+.buton:focus{
+	outline: none;
+}
+
+.buton{
+	margin-top:50px;
+	background-color: #f98561;
+	padding:15px 55px;
+	color:#ffebca;
+	border-radius: 5px;
+	cursor:pointer;
+}
+#content h3{
+	position: relative;
+	width:140px;
+	color:#fff;
+	background-color: #2190c1;
+	border-radius: 5px;
+	padding:10px 27px;
+	text-align: center;
+	margin: 140px auto 0;
+}
+
+#content2{
+	height: 320px;
+	background:#f4f4f4;
+}
+
+.services{
+	padding-top: 50px;
+}
+.logo2{
+	padding-top: 140px;
+	width: 25%;
+	float: left;
+}
+.logo2 span{
+	color:#3e9dd1;
+}
+.logo2 h4{
+	text-align: center;
+	color:#676d75;
+	padding-bottom: 15px;
+}
+.logo2 p{
+	color:#676d75;
+	padding:0px 10px;
+	text-align: center;
+}
+
+.Web-d{
+	background: url(images/Web-d.png) no-repeat center top;
+	margin-top-top: 50px;
+}
+
+.Search-op{
+	background: url(images/Search-op.png) no-repeat center top;
+}
+
+.Online-sp{
+	background: url(images/Online-sp.png) no-repeat center top;
+	margin-top-top: 50px;
+}
+
+.Social-md{
+	background: url(images/Social-md.png) no-repeat center top;
+}
+
+#Our-p{
+	height: 520px;
+	background:#2e3e4f;
+}
+#Our-p button{
+	margin-top: 50px;
+	float: right;
+	color:#fff;
+	background:#2190c1;
+	padding:10px 12px;
+	border-radius: 4px;
+}
+
+#Our-p p{
+	float:left;
+	padding-top: 60px;
+	color:#f98561;
+	font-size: 22px;
+}
+
+.photo{
+	padding-top: 150px;
+}
+#Our-p h4{
+	padding-top: 240px;
+	color:#f98561;
+	margin-bottom: 10px;
+}
+#Our-p h5{
+	color:#bcbcbc;
+	font-size: 11px;
+}
+
+#Our-p .photos{
+	float:left;
+	width:33.3%;
+}
+
+#Our-p .camera-i{
+	margin-right: 55px;
+	background: url(images/camera-i.png) no-repeat center;
+	width:280px;
+	height:220px;
+}
+
+#Our-p .camera-i:last-child{
+	margin-right: 0px;
+}
+
+#offer{
+	height: 340px;
+	background-color:#f4f4f4;
+
+}
+
+#offer p{
+	padding-top: 40px;
+	color:#2190c1;
+	text-align: center;
+	font-size: 28px;
+	padding-bottom: 25px;
+}
+#offer h3{
+	font-size: 14px;
+	color:#676d75;
+	text-align: center;
+}
+
+#offer .text2{
+	float:left;
+	width:25%;
+}
+
+#offer .text2 p{
+	padding-bottom: 10px;
+	text-align: left;
+	font-size: 16px;
+	font-weight:bold;
+}
+#offer .text2 h4{
+	color:#676d75;
+	font-size: 11px;
+	font-family: Myriad Pro Regular;
+	padding-right: 55px;
+	padding-bottom:15px; 
+}
+
+.text2 button{
+	color:#fff;
+	background-color: #2190c1;
+	border-radius: 5px;
+	padding:8px 10px;
+	margin-left: 130px; 
+}
+.text2 span{
+	padding-left: 5px;
+	color:#2190c1;
+	font-size: 14px;
+}
+
+#test{
+	height: 332px;
+	background-color: #f4f4f4;
+	text-align: center;
+}
+#test h2{
+	color:#2190c1;
+	font-size: 27px;
+	padding-top: 20px;
+	padding-bottom: 20px;
+}
+#test h3{
+	color:#515862;
+	font-size: 25px;
+	padding: 0px 100px 0px 100px;
+}
+#test p{
+	color:#f98561;
+	padding-top: 65px;
+}
+#test span{
+	font-weight: bold;
+}
+
+.people{
+	padding-top: 35px;
+	display: inline-block;
+}
+
+.people1{
+	width: 33.3%;
+	margin-right: 3px;
+	float:left;
+	background:url(images/girl.png) no-repeat;
+	width:70px;
+	height:70px;
+	padding-bottom: 10px;
+	border-bottom: 7px solid #c1c1c1;
+}
+.people2{
+	width: 33.3%;
+	margin-right: 3px;
+	float:left;
+	background:url(images/man.png) no-repeat;
+	width:70px;
+	height: 70px;
+	padding-bottom: 10px;
+	border-bottom: 7px solid #c1c1c1;
+}
+.people1:hover{
+	padding-bottom: 10px;
+	border-bottom: 7px solid #f98561;
+}
+.people2:hover{
+	padding-bottom: 10px;
+	border-bottom: 7px solid #f98561;
+}
+
+#mail{
+	height:390px;
+	background: #2e3e4f;
+}
+
+#mail .a{
+	padding-top:45px;
+	float: left;
+
+}
+#mail p{
+	color:#f98561;
+	font-size: 24px;
+}
+#mail h3{
+	padding-top: 20px;
+	color:#a3afb2;
+	font-size: 12px;
+	text-align: left;
+	line-height: 1.5;
+	padding-right: 10px;
+}
+#mail h4{
+	padding-top: 4px;
+	color:#a3afb2;
+	font-size: 12px;
+}
+#mail a{
+	color:#2386b3;
+	font-size: 12px;
+}
+#mail .mail-to{
+	padding-top: 27px;
+	color:#2386b3;
+	font-size: 12px;
+}
+#mail .pad{
+	padding-right: 10px;
+}
+#mail input{
+	margin-top: 15px;
+	width:235px;
+	height: 30px;
+	border-radius: 5px;
+}
+#mail button{
+	color:#fff;
+	background: #2190c1;
+	padding:10px 18px;
+	float:right;
+	margin-top: 15px;
+	border-radius: 5px;
+	margin-right: 25px;
+}
+
+.twit{
+	width:25%;
+}
+.new{
+	width:28%;
+}
+.recent{
+	width:25%;
+}
+.contact{
+	width:22%;
+}
+
+.recent img{
+	padding-top: 25px;
+	padding-right: 10px;
+	float: left;
+}
+.clas2, .clas3{
+	padding-top:6px;
+}
+
+.number{
+	float: right;
+	padding-left: 50px;
+}
+
+.phone{
+	background:url(images/phone.png) no-repeat;
+	background-size: 30px 36px;
+	margin-top: 20px;
+	float: left;
+	padding-bottom: 30px;
+}
+.phone1{
+	background:url(images/phone1.png) no-repeat;
+	background-size: 30px 38px;
+	float: left;
+	padding-bottom: 30px;
+}
+.phone2{
+	background:url(images/message.png) no-repeat;
+	background-size: 35px 25px;
+	float: left;
+	padding-bottom: 30px;
+}
+.contact h5{
+	color:#a3afb2;
+	font-size: 14px;
+
+}
+
+
+
+
+
+
+
+
+
+
+
